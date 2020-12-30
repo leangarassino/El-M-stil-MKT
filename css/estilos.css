@@ -1,0 +1,269 @@
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/imagenes/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header::before{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255,255,255, .1), rgba(34,40,49, 1));
+}
+
+/* .navbar{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #1a1a1a51;
+} */
+
+.titulo{
+    color: #f4f4f4;
+    text-shadow: -1px 1px 0 rgba(109, 45, 95, 0.158), 1px 1px 0  rgba(109, 45, 95, 0.158), 2px -2px 0  rgba(109, 45, 95, 0.158),-3px -3px 0 #1a1a1a;
+    font-size: 2.8rem;
+    font-family: 'Slabo 27px', serif;
+}
+.titulo1{
+    color: #f7be16;
+    text-shadow: -1px 1px 0 rgba(109, 45, 95, 0.158), 1px 1px 0  rgba(109, 45, 95, 0.158), 1px -1px 0  rgba(109, 45, 95, 0.158),-1px -1px 0 #1a1a1a;
+    font-size: 4rem;
+    font-family: 'Slabo';
+}
+.titulo span{
+    color: #f7be16;
+}
+
+.titulo2{
+    color: #f4f4f4;
+    text-shadow: -1px 1px 0 rgba(109, 45, 95, 0.158), 1px 1px 0  rgba(109, 45, 95, 0.158), 1px -1px 0  rgba(109, 45, 95, 0.158),-1px -1px 0 #1a1a1a;
+    font-size: 4rem;
+    font-family: 'Anton';
+}
+.titulo2 span{
+    color: #f7be16;
+}
+
+.bg-dark{
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    background-color: #343a4091 !important;
+}
+
+
+@media (max-width: 460px) { 
+    .text-header h2{
+        font-size: 1.2rem;
+    }
+    .text-header p{
+        font-size: 0.9rem !important;
+    }
+    .img-nosotros{
+        background-image: url(../imagenes/elmastii.jpg) !important;
+        height: 30rem !important;
+    }
+}
+
+@media (min-width: 461px) and (max-width: 767px) { 
+    .text-header h2{
+        font-size: 1.4rem !important;
+    }
+    .text-header p{
+        font-size: 1rem !important;
+    }
+}
+
+@media (min-width: 768px){
+    .bg-dark{
+        background-color: transparent !important;
+        
+    }
+    .navbar{
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        background-color: #1a1a1a51;
+    }
+    .text-header h2{
+        font-size: 1.4rem;}
+        .img-nosotros{
+            height: 15rem;
+        }
+}
+
+
+@media (min-width: 992px) { 
+    .text-header h2{
+    font-size: 1.8rem;} 
+    .img-nosotros{
+        height: 25rem;
+    }    
+}
+
+@media (min-width: 1200px) { 
+    .text-header h2{
+    font-size: 2rem;
+}}
+
+
+.navg a{
+    color: #f4f4f4 !important;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -2px 2px 0 rgba(109, 45, 95, 0.158), 2px 2px 0  rgba(109, 45, 95, 0.158), 2px -2px 0  rgba(109, 45, 95, 0.158),-2px -2px 0 #1a1a1a;
+}
+
+.navg a:hover{
+    background-color: #c10000a2;
+}
+
+.text-header {
+    min-height: 100vh;
+    color: #f4f4f4;
+    font-family: 'Montserrat';
+}
+
+.text-header h2{
+    font-family: 'Anton';
+}
+
+.text-header span{
+    letter-spacing: 5px;
+    font-size: 2em;
+    font-family: 'Anton';
+    margin: 0 0 0 5px;
+
+}
+
+.text-header p{
+    font-size: 1.3em;
+}
+
+.btn-mio{
+    padding: 7px 12px;
+    color: #f4f4f4;
+    background-color: #c10000e0;
+    
+}
+
+.btn-mio:hover{
+    color: #f4f4f4;
+    background-color: #c10000;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.categorias a{
+    color: #272121;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    margin-top: 3%;
+}
+
+.imagen-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido h2{
+    font-family: 'Anton';
+}
+
+.img-nosotros{
+    background-image: url(../imagenes/elmasti1.jpg);
+    height: 27rem;
+}
+
+
+.bg-primary{
+    background-color: #02356b !important;
+}
+
+.footer{
+    background-color: #02356b !important;
+}
+
+.color a{
+    color: #f4f4f4;
+}
+
+.color h5{
+    color: #f4f4f4;
+}
+
+.redes{
+    font-size: 2rem;
+    margin: 3px;
+}
+
+.btn-success:hover{
+    color: #272121;
+    background-color: #64d17d;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.efecto{
+    margin: 1%;
+}
+
+.efecto:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.efecto1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.info-producto{
+    margin: 2%;
+    border-radius: 5%;
+}
+
+/* @-webkit-keyframes hvr-back-pulse {
+50% {
+    background-color: rgba(32, 153, 209, 0.350);
+} */
+
+/* @keyframes hvr-back-pulse {
+50% {
+    background-color: rgba(32, 153, 209, 0.350);
+} */
+.hvr-back-pulse {
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+overflow: hidden;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-property: color, background-color;
+transition-property: color, background-color;
+padding: 1%;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+-webkit-animation-name: hvr-back-pulse;
+animation-name: hvr-back-pulse;
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-delay: 0.5s;
+animation-delay: 0.5s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+color: white;
+padding: 1%;
+}
